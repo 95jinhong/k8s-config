@@ -20,9 +20,9 @@ spec:
     spec:
       containers:
       - name: eks-example
-        image: 189939491910.dkr.ecr.us-east-2.amazonaws.com/eks-example
+        image: 189939491910.dkr.ecr.us-east-2.amazonaws.com/eks-example:ae82de83
         imagePullPolicy: IfNotPresent
-                resources:
+        resources:
           requests: 
             memory: "64Mi"
             cpu: "200m"
